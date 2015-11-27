@@ -1,0 +1,22 @@
+{
+  "name": "bankkacount",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AccountStatement.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "jsonfile": "^2.2.3",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha.cmd --reporter spec ./test/**/*.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
